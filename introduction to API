@@ -1,1 +1,49 @@
-asxa
+----INTRODUCTION TO API----
+
+What is an API?
+ https://www.youtube.com/watch?v=s7wmiS2mSXY
+
+HTTP protocol and request methods
+1. GET <- minta data dari server, data sudah ada dalam server
+2. PUT <- mengganti data atau membuat data baru bila data blm ada
+3. POST <- membuat data baru 
+   #direkomendasikan PUT buat update POST buat baru
+4. DELETE <- menghapus data atau resources
+
+Endpoints <- access points to data or computing resources hosted on a server and they take the form of an HTTP URI. Endpoints are added to an API's base URL (e.g. http://example.com) to create a path to a specific resource or container of resources.
+
+RESTful API <- APIs that utilize the HTTP protocol, request methods, and endpoints
+ 
+RESful API bisa minta ini kalu request :
+ + Headers: parameters that detail the HTTP request itself.
+ + Body: data that a client wants to send to a server.
+keduanya dalam bentuk JSON atau XML
+
+API Data Formats (JSON)
+ Format JSON = {"" : "" , "" : ""}
+
+Authentication and Authorization
+ + Authentication identifies who you are.
+ + Authorization determines what you can do.
+
+There are three types of authentication/authorization services that Google APIs use.
+1. API Keys <- secret tokens that usually come in the form of an encrypted string.
+2. OAuth <- tokens are similar to API keys in their format, but they are more secure and can be linked to user accounts or identities. 
+3. service account <- special type of Google account that belongs to your application or a virtual machine (VM) instead of to an individual end user.
+
+Authenticate and authorize the Cloud Storage JSON/REST API
+	https://www.qwiklabs.com/focuses/3473?parent=catalog
+
+----APIs Explorer: Qwik Start----
+
+https://cloud.google.com/storage/docs/json_api/v1/objects/delete
+
+
+
+
+
+
+
+
+
+
